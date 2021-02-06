@@ -1,0 +1,264 @@
+.logo-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:125px;
+  margin-top:125px;
+  position: static;
+}
+
+.logo-ifpr{
+  width: 100%;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.logo-desc{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:auto;
+  margin-top:auto;
+  
+}
+.main-title{
+  font-size: 55px;
+  background: -webkit-linear-gradient(#39456B, #71545D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.container{
+  position: relative;
+}
+
+/* Garis Pembatas */
+hr {
+  width: 85%;
+  border-width: 2px;
+  background-color: #5087AC;
+}
+
+/* Section 2 */
+.flex-wrap{
+	display: flex;
+}
+
+.ifpr-image-content{
+	margin-left:auto;
+  margin-right:auto;
+  /* margin: 80px 10% 80px 0px;  */
+}
+.ifpr-image-content .foto-ifpr{
+  max-width: 550px;
+  width: 100%;
+}
+
+.ifpr-desc-content{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:auto;
+  margin-top:auto;
+}
+.ifpr-desc-content .ifpr-desc-text{
+  text-align: justify;
+  font-size: 22px;
+  color:#264D6B;
+}
+
+.flex-wrap{
+  display: flex;
+}
+
+.timeline{
+  margin-top: 30px;
+  margin-bottom: 30px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.timeline .foto-timeline{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-height: 1000px;
+  max-width:100%;
+}
+
+.subtheme-title{
+  text-align : center;
+  color: #254C6A;
+}
+
+.dot-1 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:40px;
+  margin-top:40px;
+  margin-left:40px;
+  margin-right:40px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-image: linear-gradient(to bottom, #B2493D, #EAA175);
+}
+.text-dot{
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.dot-2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:40px;
+  margin-top:40px;
+  margin-left:40px;
+  margin-right:40px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-image: linear-gradient(to bottom, #006971, #01B695);
+}
+
+.dot-3 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:40px;
+  margin-top:40px;
+  margin-left:40px;
+  margin-right:40px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-image: linear-gradient(to bottom, #6E1E55, #D68DBB);
+}
+
+.subtheme-section{
+	text-align:center;
+}
+.testimoni-image-content{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+  /* margin: 80px 10% 80px 0px;  */
+}
+.testimoni-image-content .foto-testimoni{
+	width: 100%;
+  max-width: 450px;
+  display:inline;
+}
+.foto-publikasi{
+  width: 100%;
+	max-width: 300px;
+}
+.publication-image-content{
+  text-align: right;
+}
+.publication-text{
+  position: absolute;
+  top: 40%;
+  right:35%;
+}
+.href-pub{
+  color:#00395E;
+}
+
+.testimoni-content{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:auto;
+  margin-top:auto;
+}
+
+.testimoni-content .testimoni-text{
+  text-align: justify;
+  font-size: 20px;
+  border: 10px;
+  color:#00335A;
+}
+
+.testimoni-title{
+  text-align : center;
+  color: #254C6A;
+}
+
+.latpub-title{
+  text-align : center;
+  color: #254C6A;
+}
+
+h5{
+  color:#00395E;
+}
+
+.ifpr-tickets{
+  background-image: linear-gradient(to right, #5E9BC2 , #274E6D);
+  color: white;
+  width: 60%;
+  height: 60px;
+  border: transparent;
+  font-size: 30px;
+}
+@media(max-width:1192px){
+  .publication-text{
+    position: absolute;
+    top: 35%;
+    right:35%;
+  }
+}
+
+@media(max-width:987px){
+  .publication-text{
+    position: absolute;
+    top: 35%;
+    right:40%;
+  }
+}
+
+@media(max-width:578px){
+  .ifpr-desc-content .ifpr-desc-text{
+    font-size: 18px;
+  }
+  .main-title{
+    font-size: 40px;
+  }
+  .testimoni-content .testimoni-text{
+    font-size: 18px;
+  }
+}
+
+@media(max-width:452px){
+  .publication-text{
+    position: absolute;
+    top: 35%;
+    right:40%;
+  }
+}
+
+@media(max-width:376px){
+  .publication-image-content{
+    width: 80%;
+  }
+  .publication-text{
+    position: absolute;
+    top: 35%;
+    right:48%;
+  }
+  .ifpr-tickets{
+    width: 70%;
+  }
+}
+
+
+
+/*# sourceMappingURL=ifprstyle.css.map */

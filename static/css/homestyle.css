@@ -1,0 +1,247 @@
+/* Section 1 */
+
+.section-1{
+    background-image: url('../media/home/background_1.png') ;
+    color: white;
+    height: 560px;
+    padding: 100px 0 0 0;
+}
+
+.title-utama-content {
+    margin: 60px 0px 100px 30px;
+}   
+
+.title-utama {
+    /* font-size: 90px; */
+    background: -webkit-linear-gradient(55deg,#BDD1E9, #456AA5, #001139);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 6vw;
+}
+
+.hashtag-discovery-synergy {
+    /* font-size: 40px; */
+    font-size: 3vw;
+    
+}
+
+.main-pattern {
+    /* margin-top: -50px; */
+    margin-right: -50px;
+    width: 45vw;
+    float: right;
+    
+}
+
+@media(max-width: 767px){
+    .title-utama-content {
+        /* margin: 60px 0px 100px 30px; */
+        margin-bottom: 20px;
+    }   
+    .title-utama{
+        font-size: 5vw;
+    }
+    .main-pattern{
+        width: 40vw;
+    }
+}
+
+@media(max-width: 500px){
+    .title-utama-content{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+
+/* Sub-title untuk setiap section */
+
+.title-content {
+    margin-top: 20px;
+    text-align: center;
+    color: #254C6A;
+}
+
+.title-text {
+    font-size: 2.5vw;
+    font-size: 3vw;
+}
+
+@media(max-width: 767px) {
+    .title-text {
+        font-size: 18px;
+    }
+}
+
+
+/* Section 2 : ABOUT US*/
+.about-us-text {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.8vw;
+}
+
+@media(max-width: 767px) {
+    .about-us-text {
+        font-size: 2vw;
+        font-size: 14px;
+        /* margin: 20px; */
+    }
+}
+
+
+/* Section 3 : THIS YEAR'S THEME */
+.theme-content {
+    margin: 40px 8vw;
+}
+.theme-title {
+    font-size: 2.6vw;
+    line-height: 2.6vw;
+}
+.space {
+    height: 10px;
+}
+.theme-text {
+    font-size: 1.8vw;
+    text-align: justify;
+}
+.theme-right-content {
+    padding-top: 10px;
+    text-align: center;
+}
+.peta-main {
+    width: 100%;
+}
+
+@media(max-width:992px) {
+    .theme-content {
+        margin: 20px 4vw;
+    }
+    .peta-main {
+        width: 40vw;
+    }
+}
+@media(max-width: 767px) {
+    .theme-title{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .theme-text{
+        font-size: 14px;
+    }
+}
+
+
+/* Section 4 : OUR EVENTS */
+.logo-events {
+    text-align: center;
+}
+
+.logo-event-ifprl,
+.logo-event-hiday,
+.logo-event-dgd {
+    /* width:100%; */
+    width: 21vw;
+}
+
+.logo-event-ifprl {
+    padding-top: 30%;
+}
+
+
+/* Section 5 : Greetings */
+.greetings {
+    margin-bottom: 70px;
+}
+.judul-greetings {
+    text-align: center;
+    color: #264D6B;
+    font-size: 30px;
+    font-weight: 700;
+}
+.konten-greetings {
+    margin-top: 50px;
+}
+.konten-foto-greetings {
+    text-align: center;
+}
+.foto-greetings {
+    /* width: 400px; */
+    width: 21vw;
+    /* width: 80%; */
+    float: right;
+    margin-right: 10%;
+}
+.foto-greetings img {
+    width: 100%;
+}
+.teks-greetings {
+    /* color: #264D6B; */
+    font-size: 1.2vw;
+}
+.nama-greetings {
+    /* font-size: 24px; */
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+@media(max-width:768px) {
+    .greetings {
+        margin-bottom: 20px;
+    }
+    .konten-greetings {
+        margin-top: 15px;
+    }
+    .foto-greetings{
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        float: unset;
+    }
+    .teks-greetings {
+        padding-left: 10px;
+        margin-top: 14px;
+        font-size: 14px;
+    }
+    .nama-greetings{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+}
+
+
+/* Section 6 : Venue */
+.gmap {
+    margin: 20px 0px;
+}
+iframe {
+    width: 35vw;
+    height: 250px;
+}
+.location-text {
+    font-size: 2.2vw;
+    margin-top: 50px;
+}
+@media (max-width: 991px) {
+    .gmap{
+        text-align: center;
+    }
+    iframe {
+        width: 80vw;
+    }
+    .location-text{
+        margin-top: unset;
+        text-align: center;
+    }
+}
+@media(max-width:600px){
+    iframe {
+        height: 200px;
+    }
+    .location-text {
+        font-size: 14px;
+    }
+}

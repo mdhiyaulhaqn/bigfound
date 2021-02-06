@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extrahead %}
+
+<title>Bigfound</title>
+<link rel="icon" href="{% static 'media/navbar/logo_irp_trans.png' %}" />
+{% endblock %}
+
+{% block content %}
+
+<section>
+    <div class="container-fluid section-1">
+        <h1 class="quotes-utama"><strong>Make Better Generation, 
+            <br>To Be a Great Leader</strong></h1>
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col title-utama-content">
+                <h1 class="title-utama"><strong>INTERNATIONAL RELATIONS PROJECT<br>2019</strong></h1>
+                <h2 class="hashtag-discovery-synergy">#DiscoveringSynergy</h2>
+            </div>
+            <div class="col">
+                <img class="main-pattern" src="{% static 'media/home/new-logo.png' %}">
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section>
+    <div class="container">
+        <div class="title-content">
+            <h2 class="title-text"><strong>ABOUT US</strong></h2>
+        </div>
+        <div>
+            <p class="about-us-text">
+                International Relations Project Universitas Indonesia (IR Project UI) is the
+                biggest annual event, distinctively, held by Himpunan Mahasiswa Ilmu
+                Hubungan Internasional Fakultas Ilmu Sosial dan Ilmu Politik (HMHI FISIP
+                UI). IR Project is an expansion of Indonesia Foreign Policy Review which
+                had been held several years before. IR Project consisted of three main
+                events: IFPR Journal Launching, Diplomatic Gala Dinner, and HI-Day.
+            </p>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section>
+    <div class="container-fluid">
+        <div class="title-content">
+            <h2 class="title-text"><strong>THIS YEAR'S THEME</strong></h2>
+        </div>
+        <div class="row theme-content">
+            <div class="col-lg-6 theme-left-content">
+                <div class="theme-title">
+                    <strong>The Changing Patterns of Diplomacy:<br>
+                        How is Indonesia’s Position?</strong>
+                </div>
+                <div class="theme-text">
+                    This year, International Relations has been
+                    established for 100 years. This indicates that
+                    for 100 years, International Relations has
+                    also contributed to the development of the
+                    world. In this regard, Indonesia as a country,
+                    also takes its own part in discussion of this
+                    knowledge. Emerging as an independent
+                    country after World War II, Indonesia, has an
+
+                    interesting diplomacy that helps the country
+                    to get a spotlight in this field.
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="theme-right-content">
+                    <img class="peta-main" src="{% static 'media/home/peta_main.png' %}">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section>
+    <div class="container">
+        <div class="title-content">
+            <h2 class="title-text"><strong>OUR EVENTS</strong></h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="logo-events">
+                    <img class="logo-event-ifprl" src="{% static 'media/home/logo_IFPRL.png' %}">
+                </div>
+            </div>
+            <div class="col ">
+                <div class="logo-events">
+                    <img class="logo-event-hiday" src="{% static 'media/home/logo_hiday.png' %}">
+                </div>
+            </div>
+            <div class="col ">
+                <div class="logo-events">
+                    <img class="logo-event-dgd" src="{% static 'media/home/logo_DGD.png' %}">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section class="flex-wrap d-flex align-items-center">
+    <div class="container greetings">
+        <div class="title-content">
+            <h2 class="title-text"><strong>GREETINGS</strong></h2>
+        </div>
+        <div class="konten-greetings row">
+            <div class="col-sm-5 konten-foto-greetings">
+                <div class="foto-greetings">
+                    <img src="{% static 'media/home/OLA.png' %}">
+                </div>
+            </div>
+            <div class="col-sm-7 konten-teks-greetings">
+                <p class="teks-greetings">
+                    Greetings, Visionaries! It is my pleasure for me as a Project Officer to introduce you the biggest
+                    International Relations festival held by students in Indonesia. Since IR is celebrating its 100
+                    years of
+                    existence and development as a concrete study, the festivities of this year’s event is built upon
+                    the
+                    traditional form of state interaction, that is diplomacy. International Relations Project 2019 has a
+                    mission to raise an awareness within the youths on how important diplomacy is, especially in this
+                    vast changing world. We welcome you to join and participate in all of our events, and I certainly
+                    hope it will bring new interesting experiences for you.
+
+                    Thank you and I cannot wait to see all of you in our event!
+                </p>
+                <div class="nama-greetings">
+                    Putu Febiola Krisna Dewi,<br>
+                    Project Officer IR PROJECT UI 2019
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section>
+    <div class="container">
+        <div class="title-content">
+            <h2 class="title-text"><strong>VENUE</strong></h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="gmap">
+                    <iframe id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Fakultas%20ilmu%20sosial%20dan%20ilmu%20politik%20UI&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                </div>
+            </div>
+            <div class="col">
+                <div class="location-text">
+                    <strong>
+                        Faculty of Social
+                        and Political Sciences
+                        Universitas Indonesia
+                        Depok, West Java
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+{% endblock %}

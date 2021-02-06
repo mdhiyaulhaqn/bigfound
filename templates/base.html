@@ -1,0 +1,41 @@
+{% load static %}
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/navbarStyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/ifprstyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/dgdstyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/hidaystyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/homestyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/footerstyle.css' %}">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    {% block extrahead %}
+    {% endblock %}
+    <div></div>
+</head>
+<script>
+   AOS.init({
+   easing: 'ease-out-back',
+   duration: 800,
+   delay: 300,
+   once: true,
+});
+</script>
+
+<body>
+    {% include "navbar.html" %}
+    {% block content %}
+    {% endblock %}
+    {% include "footer.html" %}
+</body>
+</html>
