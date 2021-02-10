@@ -1,15 +1,103 @@
-/* Section 1 */
-
-.section-1{
-    background-image: url('../media/home/background_1.png') ;
-    color: white;
-    height: 560px;
-    padding: 100px 0 0 0;
+@font-face {
+    font-family: 'mulish-regular';
+    src: local('mulish-regular'),
+         url('../fonts/mulish/Mulish-Regular.ttf') format("truetype");
 }
 
-.title-utama-content {
-    margin: 60px 0px 100px 30px;
+@font-face {
+    font-family: 'mulish-bold';
+    src: local('mulish-bold'),
+         url('../fonts/mulish/Mulish-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'mulish-extrabold';
+    src: local('mulish-extrabold'),
+         url('../fonts/mulish/Mulish-ExtraBold.ttf') format("truetype");
+}
+
+p{
+    font-family: 'mulish-regular';
+}
+
+.button-custom-orange{
+    color: #ED4523;
+    border-color: #ED4523;
+    background-color: white;
+}
+
+.button-custom-orange:hover, .button-custom-orange:focus, .button-custom-orange:active{
+    color: white;
+    border-color:white ;
+    background-color: #ED4523;
+}
+
+/* SECTION 1 */
+
+.section-1{
+    background-image: url('../media/home/background_1.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    color: white;
+    height: 560px;
+    padding: 100px 0 0 10%;
+}
+
+.text-bina-insan-gemilang{
+    font-weight: bold;
+    font-size: 0.73vw;
+    font-family: 'mulish-bold';
+}
+
+.quotes-utama {
+    /* margin: 60px 0px 100px 30px; */
+    font-family: 'mulish-extrabold';
+    font-size: 3vw;
 }   
+
+
+/* SECTION 2 */
+.section-2{
+    padding: 50px;
+}
+
+.judul-programs{
+    font-family: 'mulish-bold';
+    text-align: center;
+    font-size: 32px;
+    color: #2D2871;
+    margin-bottom: 30px;
+}
+
+.container-card-program{
+    padding: 30px 15%;
+}
+
+.col-program{
+    text-align: center;
+}
+
+.card-program{
+    border: none;
+    color: #ED4523;
+    width: 17rem;
+    display: inline-block;
+    border-radius: 15px !important;
+}
+
+.text-program{
+    font-size: 27px;
+    margin: 10px 0px 40px 0px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* ---------------------------------- */
 
 .title-utama {
     /* font-size: 90px; */
