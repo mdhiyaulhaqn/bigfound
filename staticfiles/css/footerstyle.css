@@ -1,0 +1,20 @@
+.footer-content{
+    padding: 10px 10%;
+    background-color: white;
+}
+
+.icon{
+    padding: 0% 10px;
+}
+
+.icon a i{
+    color: gray;
+}
+
+.footer-company-about{
+    float: right;
+}
+
+.column-footer{
+    width: 50%
+}

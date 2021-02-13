@@ -1,0 +1,113 @@
+.logo-new {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:120px;
+  margin-top:120px;
+}
+
+.logo-new .logo-dgd{
+  width: 100%;
+  max-width: 800px;
+  text-align: justify;
+}
+
+hr {
+  width: 85%;
+  border-width: 2px;
+  background-color: #5087AC;
+}
+
+.mapouter{
+  margin-left: auto;
+  margin-right: auto;
+}
+.gmap_canvas {
+  text-align: center;
+  overflow:hidden;
+  background:none!important;
+  height:300px;
+}
+
+.dgd-image-content{
+	margin-left:auto;
+  margin-right:auto;
+  /* margin: 80px 10% 80px 0px;  */
+}
+
+.dgd-image-content .foto-dgd{
+  max-width: 550px;
+  width : 100%;
+}
+
+.dgd-desc-content{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:auto;
+  margin-top:auto;
+}
+
+.dgd-desc-content .dgd-desc-text{
+  text-align: justify;
+  font-size: 22px;
+  color:#00335A;
+}
+
+.documentation-title{
+    text-align: center;
+    color: #254C6A;
+}
+
+.datevenue-title{
+  text-align: center;
+  color: #254C6A;
+}
+
+.datevenue-content{
+  font-size:30px;
+  margin-top: auto;
+  text-align: center;
+  color:#00335A;
+}
+
+.carousel-inner img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner img {
+  max-width: 700;
+  width: 100%;
+}
+.konten-dgd{
+  text-align: center;
+  margin: 50px 0px;
+}
+.button-dgd{
+  background-image: linear-gradient(to right, #5E9BC2 , #274E6D);
+  color: white;
+  width: 60%;
+  height: 60px;
+  border: transparent;
+  font-size: 30px;
+}
+@media(max-width:578px){
+  .dgd-desc-content .dgd-desc-text{
+    font-size: 18px;
+  }
+  .testimoni-content .testimoni-text{
+    font-size: 18px;
+  }
+  .dgd-image-content .foto-dgd{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .datevenue-content{
+    font-size: 25px;
+  }
+}
+
+
+/*# sourceMappingURL=ifprstyle.css.map */

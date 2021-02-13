@@ -1,0 +1,206 @@
+/* Section 1 */
+.logo-hiday {
+  display: block;
+  margin: 100px auto;
+  width: 30%;
+  max-width: 600px;
+}
+
+@media(max-width:991px){
+  .logo-hiday{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Garis Pembatas */
+hr {
+  width: 85%;
+  border-width: 2px;
+  background-color: #5087AC;
+}
+
+
+/* Section 2 */
+.flex-wrap{
+  display: flex;
+}
+.hiday-content{
+  margin: 80px 0px;
+}
+.hiday-desc-content{
+  /* width: 35%; */
+  margin-right: 5%;
+  /* margin-left: 40px; */
+  margin: auto;
+}
+.hiday-desc-content .hiday-desc-text{
+  text-align: justify;
+  font-size: 1.8vw;
+}
+
+.hiday-image-content{
+  max-width: 500px;
+  margin-right: 10%;
+  margin: auto;
+}
+.foto-hiday{
+  width: 100%;
+  max-width: 550px;
+}
+
+@media(max-width: 767px){
+  .hiday-content{
+    margin: 50px 0px;
+  }
+}
+@media(max-width: 578px){
+  .hiday-content{
+    margin: 30px 0px;
+  }
+  .hiday-image-content{
+    padding-top: 20px;
+  }
+  .hiday-desc-content{
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .hiday-desc-content .hiday-desc-text{
+    font-size: 11px;
+  }
+  .hiday-image-content{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+  }
+}
+
+
+/* Section 3 */
+.kegiatan{
+  margin-top: 50px;
+}
+.konten-kegiatan{
+  /* margin : 0px 5% 40px 5%; */
+  text-align: center;
+}
+.foto-kegiatan{
+  width: 350px;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.foto-kegiatan img{  
+  width: 100%;
+}
+.konten-teks-kegiatan{
+  margin-top: 10px;
+}
+.teks-kegiatan{
+  text-align: center;
+  color: #355874;
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+@media(max-width:577px){
+  .kegiatan{
+    margin-top: 20px;
+  }
+  .foto-kegiatan{
+    width: 200px;
+    margin-top: 20px;
+  }
+  .teks-kegiatan{
+    font-size: 20px;
+  }
+}
+
+/* Section 4 */
+.testimony{
+  width: 85%;
+  margin: 30px 7.5% 50px 7.5%;
+}
+.judul-testimony{
+  text-align: center;
+  color: #264D6B;
+  font-size: 3vw;
+}
+
+.konten-testimony{
+  margin-top: 50px;
+}
+
+.kontek-foto-testimony{
+  text-align: center;
+}
+
+.foto-testimony{
+  width: 350px;
+  height: 350px;  
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto-testimony img{
+  height: 100%; 
+  margin: auto;
+}
+
+.teks-testimony{
+    color: #264D6B;    
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.nama-testimony{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0.7;
+}
+
+@media(max-width: 768px){
+  .judul-testimony{
+    font-size: 28px;
+  }
+  .foto-testimony{
+    width: 280px;
+    height: 280px;
+  }
+  .konten-testimony{
+    margin-top: 20px;
+  }
+  .teks-testimony{
+    font-size: 14px;
+  }
+  .nama-testimony{
+    font-size: 16px;
+  }
+}
+
+/* Section 4 */
+.konten-button-tickets{
+  text-align: center;
+  margin: 50px 0px;
+}
+.button-tickets{
+  background-image: linear-gradient(to right, #5E9BC2 , #274E6D);
+  color: white;
+  width: 30%;  
+  height: 5vw;
+  border: transparent;
+  font-size: 2vw;
+}
+
+@media(max-width: 767px){
+  .konten-button-tickets{
+    margin: 30px 0px;
+  }
+  .button-tickets{
+    width: 50%;
+    height: 40px;
+    font-size: 14px;
+  }
+}

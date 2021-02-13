@@ -1,20 +1,54 @@
+@font-face {
+    font-family: 'mulish-semibold';
+    src: local('mulish-semibold'),
+         url('../fonts/mulish/Mulish-SemiBold.ttf') format("truetype");
+}
+
 body{
     background-color: white;
 }
 
 .navbar{
     background-color: white;
-    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'mulish-semibold';
 }
+
 a:hover{
-    color: grey !important;
-    text-decoration: underline !important;
+    color: #ED4523 !important;
 }
 
 .nav-link{
     margin-left: 50px;
     font-size: 16;
     font-weight: bold;  
+}
+
+.button-donate{
+    color: white;
+    background-color: #ED4523;
+    border-color:#ED4523;
+    border-radius: 20px;
+    font-family: 'mulish-bold';
+    padding: 7px 12px;
+    margin-left: 50px;
+}
+
+.button-donate:hover{
+    background-color: white;
+    color: #ED4523;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 7px 12px;
+    margin-left: 50px;
+}
+
+
+@media(max-width: 992px){
+    .button-donate{
+        display: none;
+    }
 }
 
 

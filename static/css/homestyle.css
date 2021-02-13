@@ -76,6 +76,7 @@ p{
 
 .col-program{
     text-align: center;
+    max-width: 20rem;
 }
 
 .card-program{
@@ -86,11 +87,99 @@ p{
     border-radius: 15px !important;
 }
 
+.table-program{
+    height: 280px;
+}
+.tr-program{
+    text-align: center;
+    height: 100px;
+}
+/* td{
+    height: 200px;
+} */
+
 .text-program{
     font-size: 27px;
-    margin: 10px 0px 40px 0px;
+    color: #ED4523;
+    /* margin: 10px 0px 40px 0px; */
     font-weight: bold;
 }
+
+
+/* SECTION 3 */
+
+.section-3{
+    background-image: url('../media/home/qurban_background.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    color: white;
+    height: 560px;
+    padding: 100px 0 0 10%;
+}
+
+.btn-donate{
+    background-color: white;
+    color: #ED4523;
+    border-radius: 20px;
+    font-family: 'mulish-bold';
+    padding: 7px 12px;
+}
+
+.btn-donate:hover{
+    color: white;
+    background-color: #ED4523;
+    border-radius: 20px;
+    border-color: white;
+    font-weight: bold;
+    padding: 7px 12px;
+}
+
+/* SECTION 4 */
+.section-4{
+    padding: 130px 0px;
+    margin: 30px;
+}
+.container-partner{
+    margin: 80px 15%;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.img-review-1{
+    width: 10em !important;
+}
+
+.text-review{
+    font-family: 'mulish';
+    font-size: 18px;
+    font-style: italic;
+}
+
+.nama-review{
+    font-family: 'mulish-bold';
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

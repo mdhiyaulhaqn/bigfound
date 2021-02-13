@@ -1,20 +1,67 @@
+@font-face {
+    font-family: 'mulish-regular';
+    src: local('mulish-regular'),
+         url('../fonts/mulish/Mulish-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'mulish-bold';
+    src: local('mulish-bold'),
+         url('../fonts/mulish/Mulish-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'mulish-extrabold';
+    src: local('mulish-extrabold'),
+         url('../fonts/mulish/Mulish-ExtraBold.ttf') format("truetype");
+}
+
+.logo-row-footer{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
 .footer-content{
     padding: 10px 10%;
-    background-color: white;
+    background-color: #2D2871;
+    color: white;
+    font-family: 'mulish-regular';
+}
+
+.column-footer{
+    padding-right:30px;
+}
+
+.judul-footer{
+    font-family: 'mulish-bold';
+    margin-bottom: 15px;
+}
+
+.table-contact{
+    margin-top: 20px;
+}
+
+tr.tr-contact>td{
+    padding: 10px 10px 0px 0px;
+    color: white;
 }
 
 .icon{
-    padding: 0% 10px;
+    /* padding: 0% 10px; */
 }
 
-.icon a i{
-    color: gray;
+.icon-medsos a i{
+    color: white;
 }
 
-.footer-company-about{
+.icon-medsos{
+    padding-right: 20px;
+}
+
+/*.footer-company-about{
     float: right;
 }
 
 .column-footer{
     width: 50%
-}
+} */

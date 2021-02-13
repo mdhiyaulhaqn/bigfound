@@ -1,0 +1,24 @@
+body{
+    background-color: white;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+}
+a:hover{
+    color: grey !important;
+    text-decoration: underline !important;
+}
+
+.nav-link{
+    margin-left: 50px;
+    font-size: 16;
+    font-weight: bold;  
+}
+
+
+/* a{
+    font-size: 18;
+    font-weight: bold;
+} */
