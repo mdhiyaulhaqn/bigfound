@@ -24,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '(hkhs-x%*fr*butan1@9)d#tclc=h3&cc1k^p*&%hgvvfjhmzk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    '*'
+    'bigfound.id'
 ]
 
 
@@ -84,6 +84,16 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#   'default': {
+#   'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#   'NAME': 'database_bigfound',
+#   'USER': 'admin',
+#   'PASSWORD': 'adminbigfound'
+#   'HOST': 'localhost',
+#   'PORT': '5432',
+#   }
+# }
 
 
 # Password validation
